@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./sign/index.css">
+    <link rel="stylesheet" href="./navbar/index.css">
+
+    <script src="index.js" defer></script>
+    <script src="./navbar/index.js" defer></script>
+
+    <title>My skills</title>    
+</head>
+<body>
+
+    <nav>
+        <div class="toggle"></div>
+        <div class="cont">
+            <ul>
+            <li class="back" onclick="window.location.href='https://manon-piette.github.io/me'"><img src="./navbar/arrow.svg">back</li>
+            <li class="top"  onclick="window.scrollTo({top: 0,behavior: 'smooth'})"><img src="./navbar/arrow.svg">top</li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div>
+            <h1>How I Work</h1>
+            <img src="./rsc/home.svg" alt="">
+        </div>
+    </section>
+
+    <section id="process">
+        <h1>DESIGN PROCESS</h1>
+        <article>
+            <h3>Research & BrainStorming</h3>
+            <img src="./rsc/Design_process/1_card.svg" alt="">
+            <p>Explore and understand user needs, generate creative ideas to build a solid foundation.</p>
+        </article>
+
+        <article>
+            <h3>Architecture</h3>
+            <img src="./rsc/Design_process/2_card.svg" alt="">
+            <p>Lorem ipsum dolor sit amet</p>
+        </article>
+
+        <article>
+            <h3>Wireframe</h3>
+            <img src="./rsc/Design_process/3_card.svg" alt="">
+            <p>Lorem ipsum dolor sit amet</p>
+        </article>
+
+        <article>
+            <h3>Material design</h3>
+            <img src="./rsc/Design_process/4_card.svg" alt="">
+            <p>Lorem ipsum dolor sit amet</p>
+        </article>
+
+        <article>
+            <h3>User Testing</h3>
+            <img src="./rsc/Design_process/5_card.svg" alt="">
+            <p>Lorem ipsum dolor sit amet</p>
+        </article>
+
+        <article>
+            <h3>Figma Mockup</h3>
+            <img src="./rsc/Design_process/6_card.svg" alt="">
+            <p>Lorem ipsum dolor sit amet</p>
+        </article>
+
+        <article>
+            <h3>Tadam, a nice UI/UX</h3>
+            <img src="./rsc/Design_process/7_card.svg" alt="">
+            <p>Lorem ipsum dolor sit amet</p>
+        </article>
+    </section>
+    
+    <h1>ME & MY SKILLS</h1>
+    <section id="career">
+        <h2>My career path</h2>
+        <img src="./rsc/CareerPath_curve/process_curve.svg" alt="">
+    </section>
+    <section id="skills">
+        <h2>My career path</h2>
+        <div class="first-row">
+            <div>
+                <img src="./rsc/icons_logiciels/1_icon.svg" alt="">
+                <p>Figma</p>
+            </div>
+            <div>
+                <img src="./rsc/icons_logiciels/2_icon.svg" alt="">
+                <p>illustrator</p>
+            </div>
+            <div>
+                <img src="./rsc/icons_logiciels/3_icon.svg" alt="">
+                <p>Draw.io</p>
+            </div>
+        </div>
+        <div class="last-row">
+            <div>
+                <img src="./rsc/icons_logiciels/4_icon.svg" alt="">
+                <p>Rhino3D</p>
+            </div>
+            <div>
+                <img src="./rsc/icons_logiciels/5_icon.svg" alt="">
+                <p>FreeCAD</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="like">
+        <h2>I like</h2>
+        <div class="first-row">
+            <div>
+                <img src="./rsc/icons_Things_I_Like/1_emoji.svg" alt="">
+                <p>Ui/Ux</p>
+            </div>
+            <div>
+                <img src="./rsc/icons_Things_I_Like/2_emoji.svg" alt="">
+                <p>Product Design</p>
+            </div>
+            <div>
+                <img src="./rsc/icons_Things_I_Like/3_emoji.svg" alt="">
+                <p>create</p>
+            </div>
+            <div>
+                <img src="./rsc/icons_Things_I_Like/4_emoji.svg" alt="">
+                <p>Vegetarism</p>
+            </div>
+        </div>
+        
+        <div class="last-row">
+            <div>
+                <img src="./rsc/icons_Things_I_Like/5_emoji.svg" alt="">
+                <p>Brand design</p>
+            </div>
+            <div>
+                <img src="./rsc/icons_Things_I_Like/6_emoji.svg" alt="">
+                <p>Travel</p>
+            </div>
+            <div>
+                <img src="./rsc/icons_Things_I_Like/7_emoji.svg" alt="">
+                <p>Sport</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="profile">
+        <article>
+          <img src="./sign/rsc/photo_profil.png" alt="" class="pp">
+          <h3>Manon Piette</h3>
+          <p>Ui/Ux designer in become. Currently student at EDNA.</p>
+          <div>
+            <img src="./sign/rsc/1_logiciel.svg" alt="">
+            <img src="./sign/rsc/2_logiciel.svg" alt="">
+            <img src="./sign/rsc/3_logiciel.svg" alt="">
+            <img src="./sign/rsc/4_logiciel.svg" alt="">
+          </div>
+          <button>
+            <img src="./sign/rsc/cv.svg" alt="">
+            <p>My CV</p>
+          </button>
+          <div class="cont" onclick="window.open('https://www.linkedin.com/in/manon-piette-4913a3199','_blank')">
+            <img src="./sign/rsc/linkedin_logo.svg" alt="" class="in">
+          </div>
+        </article>
+      </footer>
+</body>
+</html>
+
